@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+
+# Keep local datasets and generated experiments out of source releases.
+/data/
+/datasets/
+/runs/
+/outputs/
+/logs/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npz

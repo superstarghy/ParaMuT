@@ -1,0 +1,151 @@
+dataset,backbone,method,variant,seed,perturbation,strength,accuracy_pct,test_samples,strength_unit
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_drop,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_drop,0.01,81.80000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_drop,0.03,81.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_drop,0.05,81.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_drop,0.1,79.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_insert,0.0,81.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_insert,0.01,81.40000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_insert,0.03,79.80000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_insert,0.05,78.70000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,event_insert,0.1,73.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,polarity_flip,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,polarity_flip,0.01,80.80000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,polarity_flip,0.03,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,polarity_flip,0.05,81.70000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,polarity_flip,0.1,80.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,frame_drop,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,frame_drop,0.01,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,frame_drop,0.03,81.10000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,frame_drop,0.05,80.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,frame_drop,0.1,81.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,temporal_jitter,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,temporal_jitter,0.01,81.10000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,temporal_jitter,0.03,81.70000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,temporal_jitter,0.05,80.60000000,1000,probability
+CIFAR10-DVS,VGG11-BN,LIF,lif,1,temporal_jitter,0.1,78.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.01,80.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.03,80.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.05,80.60000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.1,79.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.0,81.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.01,81.80000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.03,81.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.05,79.60000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.1,75.50000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.01,81.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.03,81.60000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.05,81.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.1,80.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.01,81.10000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.03,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.05,81.40000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.1,81.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.0,81.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.01,80.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.03,81.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.05,80.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.1,78.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_drop,0.0,79.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_drop,0.01,79.60000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_drop,0.03,79.10000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_drop,0.05,78.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_drop,0.1,79.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_insert,0.0,79.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_insert,0.01,79.30000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_insert,0.03,78.20000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_insert,0.05,77.40000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,event_insert,0.1,75.60000000,1000,insertions_per_original_active_bin
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,polarity_flip,0.0,79.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,polarity_flip,0.01,78.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,polarity_flip,0.03,78.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,polarity_flip,0.05,79.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,polarity_flip,0.1,78.80000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,frame_drop,0.0,79.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,frame_drop,0.01,79.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,frame_drop,0.03,79.30000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,frame_drop,0.05,78.50000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,frame_drop,0.1,78.90000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.0,79.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.01,78.70000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.03,79.20000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.05,79.00000000,1000,probability
+CIFAR10-DVS,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.1,78.20000000,1000,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_drop,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_drop,0.01,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_drop,0.03,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_drop,0.05,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_drop,0.1,95.13888889,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_insert,0.0,96.18055556,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_insert,0.01,95.83333333,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_insert,0.03,95.83333333,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_insert,0.05,95.48611111,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,LIF,lif,1,event_insert,0.1,93.75000000,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,LIF,lif,1,polarity_flip,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,polarity_flip,0.01,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,polarity_flip,0.03,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,polarity_flip,0.05,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,polarity_flip,0.1,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,frame_drop,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,frame_drop,0.01,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,frame_drop,0.03,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,frame_drop,0.05,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,frame_drop,0.1,95.13888889,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,temporal_jitter,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,temporal_jitter,0.01,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,temporal_jitter,0.03,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,temporal_jitter,0.05,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,LIF,lif,1,temporal_jitter,0.1,94.09722222,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.01,95.13888889,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.03,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.05,95.13888889,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_drop,0.1,94.79166667,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.0,96.18055556,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.01,95.83333333,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.03,96.18055556,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.05,95.48611111,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,event_insert,0.1,94.44444444,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.01,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.03,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.05,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,polarity_flip,0.1,95.13888889,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.01,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.03,95.83333333,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.05,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,frame_drop,0.1,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.0,96.18055556,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.01,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.03,94.79166667,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.05,95.48611111,288,probability
+DVS128 Gesture,VGG11-BN,ParaMuT,k5_db,1,temporal_jitter,0.1,94.44444444,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_drop,0.0,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_drop,0.01,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_drop,0.03,92.01388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_drop,0.05,92.01388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_drop,0.1,90.97222222,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_insert,0.0,92.36111111,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_insert,0.01,91.31944444,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_insert,0.03,91.31944444,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_insert,0.05,88.54166667,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,event_insert,0.1,83.68055556,288,insertions_per_original_active_bin
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,polarity_flip,0.0,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,polarity_flip,0.01,92.01388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,polarity_flip,0.03,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,polarity_flip,0.05,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,polarity_flip,0.1,91.66666667,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,frame_drop,0.0,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,frame_drop,0.01,92.01388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,frame_drop,0.03,90.62500000,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,frame_drop,0.05,89.58333333,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,frame_drop,0.1,85.76388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.0,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.01,92.70833333,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.03,92.01388889,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.05,92.36111111,288,probability
+DVS128 Gesture,VGG11-BN,PSN-style,psn,1,temporal_jitter,0.1,90.97222222,288,probability

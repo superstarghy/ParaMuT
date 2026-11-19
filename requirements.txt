@@ -1,0 +1,9 @@
+torch==2.5.1
+torchvision==0.20.1
+spikingjelly==0.0.0.0.14
+timm==0.9.7
+numpy==2.2.6
+scipy==1.15.3
+Pillow==12.1.1
+h5py==3.16.0
+DCLS==0.1.1
